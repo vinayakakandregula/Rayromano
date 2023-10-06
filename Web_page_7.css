@@ -1,0 +1,285 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+#nav {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2% 5%;
+  background-color: white;
+}
+#nav-img {
+  height: 100px;
+  width: 100px;
+}
+#nav-anc {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.nav-an {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.about {
+  color: #c2c2c2;
+}
+.nav-an:hover {
+  color: #c2c2c2;
+}
+#ray {
+  background-image: url("./Images/IMG_20230428_151651.jpg");
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+}
+#ray-head {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px 25px;
+  margin: 6% 0px 0px 6%;
+  width: 50%;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+#ray-para {
+  background-color: rgba(255, 255, 255, 0.83);
+  padding: 20px 25px;
+  margin: 2% 0px 0px 6%;
+  width: 60%;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+#arrow-down {
+  text-align: center;
+  margin-top: 160px;
+  font-size: 50px;
+  color: white;
+  font-weight: normal;
+}
+#home {
+  background-color: white;
+  padding: 6% 12%;
+  font-family: sans-serif;
+}
+#home-head {
+  font-size: 28px;
+  color: #2a2a2b;
+  margin-bottom: 15px;
+}
+#home-para {
+  font-size: 16px;
+  word-spacing: 2px;
+  width: 98%;
+  line-height: 22px;
+  color: #363636;
+}
+#raymond {
+  height: auto;
+  background-image: url("./Images/IMG_20230428_151723.jpg");
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+#raymond-head {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 25px;
+  position: relative;
+  top: 100px;
+  left: 6%;
+  width: 50%;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 35px;
+  line-height: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+#company {
+  margin-top: 540px;
+  padding: 7% 12%;
+  background-color: white;
+}
+#raymond-head1 {
+  font-size: 20px;
+  color: #2a2a2b;
+  margin-bottom: 15px;
+}
+#raymond-para {
+  font-size: 15px;
+  word-spacing: 2px;
+  width: 99%;
+  line-height: 20px;
+  color: #363636;
+}
+#services {
+  background-image: url("./Images/IMG_20230428_151814.jpg");
+  background-attachment: fixed;
+  font-family: sans-serif;
+  height: auto;
+}
+#ser-head {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 25px;
+  position: relative;
+  top: 100px;
+  left: 6%;
+  width: 14%;
+  letter-spacing: 6px;
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+}
+#planning {
+  margin-top: 570px;
+  padding: 7% 12%;
+  background-color: white;
+}
+#plan-head {
+  font-size: 20px;
+  color: #2a2a2b;
+  margin-bottom: 15px;
+}
+.plan-para {
+  font-size: 15px;
+  word-spacing: 2px;
+  width: 99%;
+  line-height: 22px;
+  color: #363636;
+  margin-top: 10px;
+}
+#testimonial {
+  background-image: url("./Images/IMG_20230428_151845.jpg");
+  background-attachment: fixed;
+  height: auto;
+  font-family: sans-serif;
+}
+#test-head {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 25px;
+  position: relative;
+  top: 100px;
+  left: 6%;
+  width: 22%;
+  letter-spacing: 6px;
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+}
+#romano {
+  margin-top: 560px;
+  padding: 7% 12%;
+  background-color: white;
+}
+.romano-head {
+  font-size: 17px;
+  color: #1a1a1a;
+  word-spacing: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.romano-para {
+  font-size: 14px;
+  color: #363636;
+  margin: 10px 0px;
+  line-height: 20px;
+}
+#gallery {
+  background-image: url("./Images/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg");
+  height: auto;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+#gallery-head {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px 25px;
+  position: relative;
+  top: 100px;
+  left: 6%;
+  width: 13%;
+  letter-spacing: 6px;
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+}
+#gal-img {
+  background-color: white;
+  padding: 8% 10%;
+  margin-top: 580px;
+}
+.imgs {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 40px;
+}
+.last-img {
+  padding-left: 55px;
+}
+.gal-para {
+  margin-top: 20px;
+  font-size: 12px;
+}
+#footer {
+  background-color: #1a1a1a;
+  display: flex;
+  color: white;
+  height: 100px;
+  align-items: center;
+  padding: 0% 14%;
+  justify-content: space-between;
+  font-family: sans-serif;
+  position: relative;
+}
+#top {
+  background-color: white;
+  color: #2a2a2b;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+}
+#top > i {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+#top > p {
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+#icons {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+#icons:hover {
+  background-color: #1a1a1a;
+}
+.icon-anc:hover {
+  background-color: #a3a1a1;
+}
+.icon-anc {
+  color: #1a1a1a;
+  /* border: 2px solid; */
+  padding: 5px 7px;
+  border-radius: 50%;
+  background-color: white;
+}
+.fa-facebook-f {
+  padding: 2px 2px;
+}
+.fa-brands {
+  font-size: 13px;
+}
+.footer-para {
+  font-size: 14px;
+}
